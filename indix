@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMB | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm CMB! 👋</h1>
+        <p>AI & Machine Learning Enthusiast | CSE-AIML Student</p>
+    </header>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>Passionate about AI, ML, and Cybersecurity. Currently working on an Automated Cancer Detection project.</p>
+    </section>
+    
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/CMB/movie-sentiment-analysis">Title Sentiment Analysis</a></li>
+            <li><a href="https://github.com/CMB/cancer-detection">Cancer Detection using CNN</a></li>
+            <li><a href="https://github.com/CMB/cab-booking">Cab Booking System</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>📫 Connect with me: 
+            <a href="https://linkedin.com/in/CMB-profile">LinkedIn</a> | 
+            <a href="https://github.com/CMB">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
