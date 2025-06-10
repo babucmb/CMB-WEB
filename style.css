@@ -1,95 +1,90 @@
-/* General Styles */
+/* Base Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
 
-/* Header Styles */
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
 header {
-    background: #333;
-    color: white;
-    padding: 20px;
+  background: #111;
+  padding: 2rem;
 }
-
 header h1 {
-    margin: 0;
-    font-size: 2.5em;
+  font-size: 2.8rem;
+  margin: 0;
 }
-
 header p {
-    font-size: 1.2em;
-    margin-top: 5px;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #cccccc;
 }
-
-/* Navigation Menu */
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
 }
-
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 1rem;
 }
-
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Section Styling */
 section {
-    background: white;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 800px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
-
 h2 {
-    color: #444;
+  color: #ffffff;
+  margin-bottom: 1rem;
 }
 
-/* Project & Skills List */
-ul {
-    list-style: none;
-    padding: 0;
+/* Project Cards */
+.project-card {
+  background: #222;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px #00bfff50;
+}
+.project-card h3 {
+  color: #00bfff;
+  margin-top: 0;
 }
 
-ul li {
-    background: #e3e3e3;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
+/* Skills & Certs */
+.skills-list li {
+  background: #333;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
 }
 
-/* Contact Section */
-#contact a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styles */
+/* Footer */
 footer {
-    background: #222;
-    color: white;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background: #111;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
 }
