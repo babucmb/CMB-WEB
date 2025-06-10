@@ -42,7 +42,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Section Styling */
+/* Sections */
 section {
   margin: 2rem auto;
   padding: 2rem;
@@ -56,24 +56,29 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Project Cards */
+/* Clickable Projects */
+.project-link {
+  display: block;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
 .project-card {
   background: #222;
   padding: 1.5rem;
-  margin-bottom: 2rem;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
-.project-card:hover {
+.project-link:hover .project-card {
   transform: scale(1.02);
-  box-shadow: 0 0 20px #00bfff50;
+  box-shadow: 0 0 15px #00bfff;
 }
 .project-card h3 {
   color: #00bfff;
   margin-top: 0;
 }
 
-/* Skills & Certs */
+/* Skills & Certifications */
 .skills-list li {
   background: #333;
   padding: 0.75rem;
