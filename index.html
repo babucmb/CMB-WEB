@@ -2,69 +2,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chilakani Mahesh Babu | AI/ML Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chilakani Mahesh Babu | AI/ML Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Chilakani Mahesh Babu</h1>
-    <p>AI & ML Developer | Full Stack Enthusiast | Data Science Minor</p>
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="glow">Chilakani Mahesh Babu</h1>
+      <p class="tagline">AI & ML Developer • Full Stack Enthusiast • Data Science Minor</p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#current">Current Work</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#learning">Learning & Goals</a></li>
+        <li><a href="#timeline">Journey</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- ABOUT -->
   <section id="about">
     <h2>About Me</h2>
-    <p>B.Tech student specializing in Artificial Intelligence & Machine Learning at CMR College of Engineering & Technology, Hyderabad. Passionate about neural networks, NLP, cybersecurity, and smart real-world solutions. Also pursuing a minor in Data Science.</p>
+    <p>
+      I’m a B.Tech student specializing in <strong>Artificial Intelligence & Machine Learning</strong> at
+      CMR College of Engineering & Technology, Hyderabad, with a minor in Data Science. 
+      Passionate about building intelligent systems using deep learning, computer vision, and NLP.
+      I enjoy solving real-world problems related to <strong>AI, cybersecurity, and smart agriculture</strong>.
+    </p>
   </section>
 
+  <!-- PROJECTS -->
   <section id="projects">
-    <h2>Projects</h2>
+    <h2>Featured Projects</h2>
 
-    <a href="https://github.com/babucmb/weather_app_task_intern" target="_blank" class="project-link">
-      <div class="project-card">
+    <div class="project-grid">
+      <a href="https://github.com/babucmb/weather_app_task_intern" target="_blank" class="project-card">
         <h3>🌦️ Full-Stack Weather App</h3>
         <p><strong>Stack:</strong> Firebase, JavaScript</p>
-        <p>Developed a real-time weather app with full CRUD using Firestore. Features responsive UI, real-time API, input validation, and persistent weather logs by location and date.</p>
-      </div>
-    </a>
+        <p>Built a real-time weather analytics dashboard with responsive UI, CRUD operations, 
+        and location-based persistent data using Firestore.</p>
+      </a>
 
-    <a href="https://github.com/babucmb/LLaMA-2-CPU-Runner" target="_blank" class="project-link">
-      <div class="project-card">
+      <a href="https://github.com/babucmb/LLaMA-2-CPU-Runner" target="_blank" class="project-card">
         <h3>🧠 LLaMA-2 CPU Runner</h3>
         <p><strong>Stack:</strong> Python, llama.cpp</p>
-        <p>Created an inference pipeline for transformer-based language models that runs locally on CPU-only machines. Supports quantized models and Colab deployment.</p>
+        <p>Implemented a lightweight transformer inference pipeline for LLaMA-2 on CPU-only systems, 
+        supporting quantized models and local deployment.</p>
+      </a>
+
+      <div class="project-card">
+        <h3>🎬 Title Sentiment Analysis</h3>
+        <p><strong>Stack:</strong> Python, NLP, Scikit-learn</p>
+        <p>Performed sentiment analysis on movie reviews to classify emotions using ML models and TF-IDF vectorization.</p>
       </div>
-    </a>
 
-    <ul>
-      <li>🎬 Title Sentiment Analysis on Movie Reviews</li>
-      <li>🧬 Cancer Detection using CNN & OpenCV</li>
-      <li>🚕 Cab Booking System (Python)</li>
-      <li>♻️ Trash to Treasure Donation Platform</li>
-      <li>🚨 Eye Blink Sensor for Drowsy Driver Alert (IoT)</li>
-    </ul>
+      <div class="project-card">
+        <h3>🧬 Cancer Detection with CNN</h3>
+        <p><strong>Stack:</strong> Python, TensorFlow, OpenCV</p>
+        <p>Trained a CNN to detect cancer from blood cell images, achieving high accuracy with real-time visualization.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>♻️ Trash to Treasure Donation Platform</h3>
+        <p>Developed a platform connecting donors to orphanages and NGOs, enabling resource redistribution and waste reduction.</p>
+      </div>
+    </div>
   </section>
 
+  <!-- CURRENT WORK -->
+  <section id="current">
+    <h2>Current Work / Challenges</h2>
+    <p>
+      Currently exploring <strong>AI model optimization</strong> for low-resource environments and 
+      working on integrating <strong>vision-based systems</strong> into real-time applications.
+    </p>
+    <p>
+      I also contribute to solving <strong>community-based tech challenges</strong> such as smart agriculture, 
+      cybersecurity defenses, and AI-driven automation tools.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
   <section id="skills">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <ul class="skills-list">
-      <li>Languages: Python, Java</li>
-      <li>ML/DL: TensorFlow, PyTorch, Scikit-learn, Keras</li>
-      <li>Web: HTML, CSS, JavaScript, Firebase, Firestore</li>
-      <li>Tools: OpenCV, llama.cpp, GitHub, Google Colab</li>
-      <li>Databases: MySQL, SQL Server</li>
+      <li><strong>Languages:</strong> Python, Java</li>
+      <li><strong>Frameworks:</strong> TensorFlow, PyTorch, Scikit-learn, Keras</li>
+      <li><strong>Web:</strong> HTML, CSS, JavaScript, Firebase, Firestore</li>
+      <li><strong>Tools:</strong> OpenCV, llama.cpp, GitHub, Google Colab</li>
+      <li><strong>Databases:</strong> MySQL, SQL Server</li>
     </ul>
   </section>
 
+  <!-- LEARNING -->
+  <section id="learning">
+    <h2>Learning & Goals</h2>
+    <p>
+      🚀 Expanding knowledge in <strong>Generative AI</strong> and <strong>Large Language Models</strong> (LLMs).  
+      Improving skills in cloud deployment (Azure, GCP) and MLOps pipelines.  
+      Focusing on combining <strong>AI + IoT</strong> for intelligent automation and security solutions.
+    </p>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+    <h2>Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span>🎓 2023</span>
+        <p>Completed Diploma in Computer Engineering at TRR College of Technology (8.32 CGPA).</p>
+      </div>
+      <div class="timeline-item">
+        <span>💻 2024</span>
+        <p>Google AI Virtual Internship – Worked on AIML projects and deep learning foundations.</p>
+      </div>
+      <div class="timeline-item">
+        <span>🧠 2025</span>
+        <p>Currently pursuing B.Tech in AI & ML, developing projects in computer vision and NLP.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
   <section id="certifications">
     <h2>Certifications</h2>
     <ul class="skills-list">
@@ -73,16 +142,17 @@
     </ul>
   </section>
 
+  <!-- CONTACT -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:chilakanim8@gmail.com">chilakanim8@gmail.com</a></p>
-    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/chilakani-mahesh-babu-CMB" target="_blank">chilakani-mahesh-babu-CMB</a></p>
-    <p>💻 GitHub: <a href="https://github.com/babucmb" target="_blank">github.com/babucmb</a></p>
-    <p>🌐 Portfolio: <a href="https://babucmb.github.io/CMB-WEB/" target="_blank">babucmb.github.io/CMB-WEB/</a></p>
+    <p>📧 <a href="mailto:chilakanim8@gmail.com">chilakanim8@gmail.com</a></p>
+    <p>🔗 <a href="https://linkedin.com/in/chilakani-mahesh-babu-CMB" target="_blank">LinkedIn</a></p>
+    <p>💻 <a href="https://github.com/babucmb" target="_blank">GitHub</a></p>
+    <p>🌐 <a href="https://babucmb.github.io/CMB-WEB/" target="_blank">Portfolio</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Chilakani Mahesh Babu. All Rights Reserved.</p>
+    <p>&copy; 2025 Chilakani Mahesh Babu. Designed & Built with 💙 AI-Powered Innovation.</p>
   </footer>
 </body>
 </html>
