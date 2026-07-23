@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LLaMA-2 CPU Runner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      body { padding-bottom: 2rem; }
+      .project-shell { max-width: 1000px; margin: 0 auto; padding: 3rem 1.2rem 0; }
+      .project-shell h1 { font-size: clamp(2rem, 3vw, 2.8rem); margin-bottom: 0.8rem; }
+      .project-shell .lead { color: var(--text-muted); margin-bottom: 1.5rem; }
+      .section-card { margin-bottom: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 1.2rem; padding: 1.4rem; }
+      .two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+      @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="project-shell">
+      <a href="../index.html" class="btn btn-secondary">← Back to portfolio</a>
+      <h1>LLaMA-2 CPU Runner</h1>
+      <p class="lead">An optimized workflow to run LLaMA 2 inference on CPU using llama.cpp and GGUF quantized models.</p>
+
+      <div class="section-card">
+        <h2>Overview</h2>
+        <p>This project enables LLaMA 2 to run efficiently without a GPU by using llama.cpp and quantized GGUF models. It is designed for local machines and Google Colab environments.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="section-card">
+          <h2>Features</h2>
+          <ul>
+            <li>CPU-only LLaMA 2 inference</li>
+            <li>llama.cpp integration for fast local inference</li>
+            <li>GGUF quantized model support for low-memory usage</li>
+            <li>Works on Google Colab and local environments</li>
+          </ul>
+        </div>
+        <div class="section-card">
+          <h2>Quickstart</h2>
+          <p>Install dependencies and use a GGUF model for optimized performance:</p>
+          <pre>pip install llama-cpp-python</pre>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h2>Repository</h2>
+        <p>Full code examples, model setup, and performance tips are available on GitHub.</p>
+        <a href="https://github.com/babucmb/LLaMA-2-CPU-Runner" target="_blank" rel="noreferrer">LLaMA-2 CPU Runner repo →</a>
+      </div>
+    </div>
+  </body>
+</html>

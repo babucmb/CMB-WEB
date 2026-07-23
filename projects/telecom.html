@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autonomous Telecom Fault Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      body { padding-bottom: 2rem; }
+      .project-shell { max-width: 1000px; margin: 0 auto; padding: 3rem 1.2rem 0; }
+      .project-shell h1 { font-size: clamp(2rem, 3vw, 2.8rem); margin-bottom: 0.8rem; }
+      .project-shell .lead { color: var(--text-muted); margin-bottom: 1.5rem; }
+      .section-card { margin-bottom: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 1.2rem; padding: 1.4rem; }
+      .two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+      @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="project-shell">
+      <a href="../index.html" class="btn btn-secondary">← Back to portfolio</a>
+      <h1>Autonomous Telecom Fault Management System</h1>
+      <p class="lead">A multi-agent AI system for autonomous fault detection, root-cause analysis, and real-time network alerting.</p>
+
+      <div class="section-card">
+        <h2>Overview</h2>
+        <p>This project reimagines telecom operations by turning incident handling into an agent-driven workflow. Instead of relying only on manual review, the system uses LLMs, RAG, and orchestration to reason, retrieve knowledge, and recommend actions for network faults.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="section-card">
+          <h2>Problem</h2>
+          <p>Telecom teams often face high-volume alerts and fragmented knowledge sources. The manual triage process is slow, error-prone, and difficult to scale under real-time pressure.</p>
+        </div>
+        <div class="section-card">
+          <h2>Solution</h2>
+          <p>I designed a multi-agent system using Google ADK and CrewAI, where different agents collaborate for reasoning, evidence retrieval, and response generation.</p>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h2>Core Stack</h2>
+        <div class="chip-row">
+          <span>Python</span><span>Google ADK</span><span>CrewAI</span><span>LLM</span><span>RAG</span><span>FAISS</span><span>Streamlit</span>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h2>What I Built</h2>
+        <ul>
+          <li>Multi-agent orchestration for autonomous fault detection and investigation.</li>
+          <li>RAG-based retrieval over telecom knowledge and historical incident data.</li>
+          <li>Interactive monitoring dashboard for operational visibility and decision support.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>Impact</h2>
+        <p>The system demonstrates how enterprise AI can move from static automation to intelligent decision support by combining LLM reasoning, vector search, and agent collaboration.</p>
+      </div>
+    </div>
+  </body>
+</html>
